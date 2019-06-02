@@ -122,16 +122,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\图论\图论\AMap.h" />
-    <ClInclude Include="..\..\图论\图论\LMap.h" />
-    <ClInclude Include="..\..\图论\图论\queue.h" />
-    <ClInclude Include="..\..\图论\图论\SequeueList.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\图论\图论\邻接矩阵.cpp" />
-    <ClCompile Include="..\..\图论\图论\邻接表.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
