@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AMap.h" />
+    <ClInclude Include="LMap.h" />
+    <ClInclude Include="queue.h" />
+    <ClInclude Include="seq_list.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="邻接矩阵.cpp" />
+    <ClCompile Include="邻接表.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{471D13B8-2A66-44D4-815E-22AA2BD44948}</ProjectGuid>
