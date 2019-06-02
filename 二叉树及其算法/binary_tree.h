@@ -1,6 +1,6 @@
 #pragma once
 #define _CRT_SECURE_NO_WARNINGS
-
+//将0和1用文字表示
 #define MY_FALSE 0
 
 #define MY_TRUE 1
