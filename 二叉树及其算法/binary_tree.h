@@ -7,7 +7,7 @@
 ;
 #include <stdio.h>
 #include <stdlib.h>
-#include "link_stack.h"			//链栈头文件
+#include "link_stack.h"			//链栈头文
 //二叉树节点结构
 typedef struct binary_tree {
 	char x;
@@ -66,9 +66,10 @@ void recursion_by_last(binary_tree* root) {
 
 void find_elem(binary_tree* root, char ele, int* i) {
 	if (root == NULL) {
-		return 0;
+		return;
 	}
 	if (root->x == ele) {
+		;
 		*i = 1;
 
 	}
