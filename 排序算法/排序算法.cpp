@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#define RANDNUM 100000//随机数的个数
+#define RANDNUM 10000//随机数的个数
 
 int quick_sort(int a[],int left,int right) {
 	int i, j, temp, t;
