@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "顺序表", "顺序表\顺�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单链表", "单链表\单链表.vcxproj", "{E4B09A6F-A37D-4D47-A58C-43E6EAF76456}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "栈和队列", "栈和队列\栈和队列.vcxproj", "{BF303E80-746F-4D96-99FC-0FF7415CC22A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{E4B09A6F-A37D-4D47-A58C-43E6EAF76456}.Release|x64.Build.0 = Release|x64
 		{E4B09A6F-A37D-4D47-A58C-43E6EAF76456}.Release|x86.ActiveCfg = Release|Win32
 		{E4B09A6F-A37D-4D47-A58C-43E6EAF76456}.Release|x86.Build.0 = Release|Win32
+		{BF303E80-746F-4D96-99FC-0FF7415CC22A}.Debug|x64.ActiveCfg = Debug|x64
+		{BF303E80-746F-4D96-99FC-0FF7415CC22A}.Debug|x64.Build.0 = Debug|x64
+		{BF303E80-746F-4D96-99FC-0FF7415CC22A}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF303E80-746F-4D96-99FC-0FF7415CC22A}.Debug|x86.Build.0 = Debug|Win32
+		{BF303E80-746F-4D96-99FC-0FF7415CC22A}.Release|x64.ActiveCfg = Release|x64
+		{BF303E80-746F-4D96-99FC-0FF7415CC22A}.Release|x64.Build.0 = Release|x64
+		{BF303E80-746F-4D96-99FC-0FF7415CC22A}.Release|x86.ActiveCfg = Release|Win32
+		{BF303E80-746F-4D96-99FC-0FF7415CC22A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
