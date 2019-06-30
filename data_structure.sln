@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "排序算法", "排序算�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "查找算法", "查找算法\查找算法.vcxproj", "{66121ED6-C742-40DB-B791-58E024DA067B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "顺序表", "顺序表\顺序表.vcxproj", "{587BDBC8-B48F-4BBC-B728-E46DAD3FAC2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{66121ED6-C742-40DB-B791-58E024DA067B}.Release|x64.Build.0 = Release|x64
 		{66121ED6-C742-40DB-B791-58E024DA067B}.Release|x86.ActiveCfg = Release|Win32
 		{66121ED6-C742-40DB-B791-58E024DA067B}.Release|x86.Build.0 = Release|Win32
+		{587BDBC8-B48F-4BBC-B728-E46DAD3FAC2F}.Debug|x64.ActiveCfg = Debug|x64
+		{587BDBC8-B48F-4BBC-B728-E46DAD3FAC2F}.Debug|x64.Build.0 = Debug|x64
+		{587BDBC8-B48F-4BBC-B728-E46DAD3FAC2F}.Debug|x86.ActiveCfg = Debug|Win32
+		{587BDBC8-B48F-4BBC-B728-E46DAD3FAC2F}.Debug|x86.Build.0 = Debug|Win32
+		{587BDBC8-B48F-4BBC-B728-E46DAD3FAC2F}.Release|x64.ActiveCfg = Release|x64
+		{587BDBC8-B48F-4BBC-B728-E46DAD3FAC2F}.Release|x64.Build.0 = Release|x64
+		{587BDBC8-B48F-4BBC-B728-E46DAD3FAC2F}.Release|x86.ActiveCfg = Release|Win32
+		{587BDBC8-B48F-4BBC-B728-E46DAD3FAC2F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
