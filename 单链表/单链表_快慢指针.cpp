@@ -15,6 +15,7 @@ void LinkedListInit(SingleNodeList** head) {//1初始化有头节点的单链表
 		exit(1);
 	}
 	(*head)->next = NULL;
+	return;
 }
 int LinkedListLength(SingleNodeList* head) {//2求单链表长度 
 	SingleNodeList* p = head;
@@ -166,6 +167,7 @@ void LinkedListDestroy(SingleNodeList** head) {//10释放链表
 		free(q);
 	}
 	*head = NULL;
+	return;
 }
 
 int main() {
