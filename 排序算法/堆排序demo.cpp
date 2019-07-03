@@ -37,17 +37,15 @@ void heap_adjust(int arr[],int  index,int len) {
 
 
 //1,初始化堆,大顶堆,从小到大,
-//
-
 
 void heap_sort(int arr[], int len) {
 	//从最后一个非叶子节点开始,数组从0开始故要-1;
 	//从下面往上初始化堆
-  	for (int i = len / 2 - 1; i >= 0; i--) {
-		heap_adjust(arr, i, len);
+  	for (int i = len / 2 - 1; i >= 0; i--) { //从后(len/2-1位置往前)
+		heap_adjust(arr, i, len);//初始化堆(调整)
 	}
 	//交换堆顶元素和最后一个元素
-	for (int i = len  - 1; i >= 0; i--) {
+	for (int i = len  - 1; i >= 0; i--) {  //同时也再次调整(从堆顶往下开始)
 		swap(arr, 0, i);
 		//又重头开始调整堆(头和尾换了后头不再满足最大堆)
 		heap_adjust(arr, 0, i);  //是i不是len是因为要排除最后面的交换好了的
