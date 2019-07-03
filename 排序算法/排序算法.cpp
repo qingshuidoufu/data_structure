@@ -30,6 +30,29 @@ int quick_sort(int a[],int left,int right) {
 	}
 	return 0;
 }
+// 希尔排序对数据量大的时候效率特别高
+//基本思路:分组->对每一组进行插入排序
+//研究表明:希尔排序的增量为increasement=increasement/3+1的时候最高效
+//从小到大进行希尔排序
+void shell_sort(int* arr, int length) {
+	int increasement = length;  //假设增量为数组长度
+	int i, j, k;
+	do {
+		
+		increasement = increasement / 3 + 1;   //确定分组增量
+		for (i = 0; i < increasement; i++) {  //确定第一个增量范围内的元素与增量外的元素匹配
+			for (j = i + increasement; j < length; j += increasement) { //j继承i的位置,找到第一个增量外的元素
+				int temp = arr[j];  //保存增量分的组中要插入的元素
+				if (arr[j] < arr[j - increasement]) {   //分组的元素通过增量来比较
+					for (k = j - increasement; k >= 0 && temp < arr[k]; k -= increasement) {  //通过增量来交换移位
+						arr[k + increasement] = arr[k];
+					}
+					arr[k + increasement] = temp;   //移完了后吧插入的元素插入进去
+				}
+			}
+		}
+	} while (increasement > 1); //直到增量减到1时不再排序
+}
 int insert_sort(int iRandNum[]) {
 	int tem, i, j;
 	for (i = 0; i < RANDNUM - 1; i++) { //i前的数为有序
